@@ -64,6 +64,8 @@ p {
     background-color: white;
     color: #6956FD;
     cursor: pointer; }
+  .main-nav #login-btn:focus {
+    outline: none; }
 
 .wrapper {
   -webkit-box-orient: horizontal;
@@ -113,5 +115,7 @@ p {
     letter-spacing: -0.06px;
     background-image: url("../assets/search_icon.png");
     background-repeat: no-repeat; }
+  .wrapper input[type=text]:focus {
+    outline: none; }
 
 /*# sourceMappingURL=style.css.map */
