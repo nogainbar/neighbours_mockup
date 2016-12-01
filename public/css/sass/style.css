@@ -1,5 +1,54 @@
 body {
-  background-color: red;
-}
+  background-color: #120079; }
+
+h1 {
+  font-family: 'League Spartan';
+  font-size: 50px;
+  color: #FFFFFF;
+  letter-spacing: -0.18px; }
+
+p {
+  font-family: 'Clear Sans';
+  font-size: 20px; }
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url("leaguespartan-bold.eot");
+  src: url("leaguespartan-bold.eot?#iefix") format("embedded-opentype"), url("leaguespartan-bold.woff2") format("woff2"), url("leaguespartan-bold.woff") format("woff"), url("leaguespartan-bold.ttf") format("truetype"), url("leaguespartan-bold.svg#league_spartanbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local("ClearSans-Medium"), local("Clear Sans Medium"), url("../fonts/clearsans/ClearSans-Medium.eot"), url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg") format("svg"); }
+.main-nav {
+  display: flex;
+  font-family: 'Clear Sans';
+  font-size: 14px;
+  color: #FFFFFF;
+  list-style: none; }
+  .main-nav li {
+    padding-right: 20px; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav #login-btn {
+    background-color: #6956FD;
+    border-radius: 17px;
+    height: 37px;
+    width: 107px;
+    color: #FFFFFF;
+    font-family: 'Clear Sans';
+    font-size: 14px;
+    letter-spacing: -0.05px;
+    border: 0;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out; }
+  .main-nav #login-btn:hover {
+    background-color: white;
+    color: #6956FD;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

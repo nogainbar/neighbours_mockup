@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('ClearSans-Medium'), local('Clear Sans Medium'),
+         url('../fonts/clearsans/ClearSans-Medium.eot'),
+         url('../fonts/clearsans/ClearSans-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearsans/ClearSans-Medium.woff') format('woff'),
+         url('../fonts/clearsans/ClearSans-Medium.ttf') format('truetype'),
+         url('../fonts/clearsans/ClearSans-Medium.svg') format('svg');
+}
