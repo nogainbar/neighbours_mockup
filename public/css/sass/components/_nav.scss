@@ -1,0 +1,56 @@
+
+
+.main-nav {
+  display: flex;
+  margin-top: 28px;
+  font-family: 'Clear Sans';
+  font-size: 14px;
+  color: $main-text;
+  list-style: none;
+
+    .menu-item-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    li {
+      padding-right: 20px;
+      max-width: 50%;
+      -webkit-transition: background-color 0.3s ease-out;
+      -moz-transition: background-color 0.3s ease-out;
+      -o-transition: background-color 0.3s ease-out;
+      transition: background-color 0.3s ease-out;
+    }
+     li:hover {
+       cursor: pointer;
+       color: #F5797D;
+     }
+
+     li:first-child {
+      margin-right: auto;
+    }
+
+    #login-btn {
+      margin-right: 70px;
+      background-color: $buttons;
+      border-radius: 17px;
+      height: 37px;
+      width: 107px;
+      color: $main-text;
+      font-family: 'Clear Sans';
+      font-size: 14px;
+      letter-spacing: -0.05px;
+      border: 0;
+      -webkit-transition: background-color 0.3s ease-out;
+      -moz-transition: background-color 0.3s ease-out;
+      -o-transition: background-color 0.3s ease-out;
+      transition: background-color 0.3s ease-out;
+    }
+
+    #login-btn:hover {
+      background-color: white;
+      color: $buttons;
+      cursor: pointer;
+    }
+}
